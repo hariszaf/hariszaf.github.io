@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Labor division in microbial communities 
-permalink: /insights/labor_division/
+permalink: /insights/labor-division
 ---
 
 

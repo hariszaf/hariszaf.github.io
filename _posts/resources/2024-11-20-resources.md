@@ -7,10 +7,10 @@ tags: tools
 ---
 
 This is my favorite resources' page
+
 <!-- To make life easier, we use the Markdown All in One vs-code add on
 You can make a shitty table first and then by Ctrl+Shift+I make it pretty 
 Here you can find more: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one 
-
 [NOTE] For the Copy Table button to well perform, we need to have the exact same number of buttons as the number of tables in a page.
 -->
 
@@ -20,15 +20,16 @@ Here you can find more: https://marketplace.visualstudio.com/items?itemName=yzha
 - [Genomics and Metagenomics](#genomics-and-metagenomics)
 - [Databases](#databases)
 - [Statistics for microbiome analysis](#statistics-for-microbiome-analysis)
-- [My dictionary](#my-dictionary)
 - [Visualizations](#visualizations)
+- [My dictionary](#my-dictionary)
+- [Cool bioinfo](#cool-bioinfo)
 
 ---
 
 
 ## Metabolic modeling
 
-You may have a look at this [*e-book*](https://hariszaf.github.io/notes-on-met-mod-analysis/tools.html) :notebook: I've been working on. 
+You may have a look at this :notebook: [*e-book*](https://hariszaf.github.io/notes-on-met-mod-analysis/tools.html) I've been working on. 
 
 ## Genomics and Metagenomics
 
@@ -37,7 +38,19 @@ You may have a look at this [*e-book*](https://hariszaf.github.io/notes-on-met-m
 | skani |  determining average nucleotide identity (ANI) via sparse approximate alignments | [wiki](https://github.com/bluenote-1577/skani/wiki) | stand-alone  | [GitHub](https://github.com/bluenote-1577/skani) | [OA](https://doi.org/10.1038/s41592-023-02018-3) |
 | LocalHGT | ultrafast horizontal gene transfer detection from large microbial communities | - |stand-alone  | [GitHub](https://github.com/deepomicslab/LocalHGT#hgt-events) | [OA](https://doi.org/10.1093/nar/gkae515) |
 | gRodon | estimates maximal growth rates of prokaryotes and microbial eukaryotes from genome-wide codon usage statistics | [site](https://microbialgamut.com/gRodon-vignette) | R package | [GitHub](https://github.com/jlw-ecoevo/gRodon2) |  [original](https://doi.org/10.1073/pnas.2016810118) | [v2 @ biorxiv](https://doi.org/10.1101/2021.10.15.464604) |
-| 
+| gcplyr | microbial growth curve data analysis | [pages](https://mikeblazanin.github.io/gcplyr/) |  R package | [GitHub](https://github.com/mikeblazanin/gcplyr) | [OA](https://doi.org/10.1186/s12859-024-05817-3) |
+| drep | https://drep.readthedocs.io/en/latest/choosing_parameters.html
+
+Hierarchical Modelling of Species Communities (Hmsc) is a flexible framework for Joint Species Distribution Modelling (JSDMs).
+ relate species occurrences or abundances to environmental covariates, species traits and phylogenetic relationships. JSDMs are a special case of species distribution models (SDMs) that take into account the multivariate nature of communities which allows us to estimate community level responses as well capture biotic interactions and the influence of missing covariates in residual species associations.
+[GitHub](https://github.com/hmsc-r/HMSC)
+
+
+Kinbiont – an ecosystem of numerical methods integrating advanced ordinary differential equation solvers, non-linear optimization, signal processing, and interpretable machine learning algorithms.
+https://pinheirogroup.github.io/Kinbiont.jl/
+https://www.biorxiv.org/content/10.1101/2024.09.09.611847v1.full
+
+
 
 <button class="copy-button">Copy Table</button>
 
@@ -64,8 +77,20 @@ You may have a look at this [*e-book*](https://hariszaf.github.io/notes-on-met-m
 | coda4microbiome | analyzing microbiome data within the Compositional Data Analysis (CoDA) framework in both, cross-sectional and longitudinal studies                                                                            | R package           | [GitHub](https://malucalle.github.io/coda4microbiome/) | <a href="https://malucalle.github.io/coda4microbiome/">✔</a> |   [OA](https://doi.org/10.1186/s12859-023-05205-3)   |
 | multimedia      | multimodal **[mediation analysis](2024-11-20-microbiome.md#mediation-analysis)** of microbiome data                                                                                                            | R package           | [GitHub](https://github.com/krisrs1128/multimedia)     |   <a href="https://krisrs1128.github.io/multimedia/">✔</a>   | [biorxiv](https://doi.org/10.1101/2024.03.27.587024) |
 | metagenomeSeq   | determines differentially features using a count-based method via a zero-inflated normal model (a mixture of a point mass at zero and a normal distribution) to represent the log of microbiome feature counts | R package           | [GitHub](https://github.com/HCBravoLab/metagenomeSeq)  | <a href="https://cbcb.umd.edu/software/metagenomeSeq">✔</a>  |       [OA](https://doi.org/10.1038/nmeth.2658)       |
+| MicroKPNN-MT | Multi-task microbiome-based knowledge-primed neural network |  -  | [OA](https://doi.org/10.1093/bioadv/vbae203) |  script | [GitHub](https://github.com/mgtools/MicroKPNN-MT) |
 
 <button class="copy-button">Copy Table</button>
+
+
+
+## Visualizations
+
+
+| Tool            | Description                                                                                                                                                                                                    | Architecture        | Repo                                                   |                        Documentation                         |                         DOI                          |
+| clinker | pipeline for easily generating publication-quality gene cluster comparison figures | Python package | [GitHub](https://github.com/gamcil/clinker) |  [wiki page](https://github.com/gamcil/clinker/wiki#basic-pipeline) |  [OA](https://doi.org/10.1093/bioinformatics/btab007) |
+
+<button class="copy-button">Copy Table</button>
+
 
 
 
@@ -91,11 +116,39 @@ In the following table I describe some terms I usually read/write about.
 <button class="copy-button">Copy Table</button>
 
 
-## Visualizations
 
 
-| Tool            | Description                                                                                                                                                                                                    | Architecture        | Repo                                                   |                        Documentation                         |                         DOI                          |
-| clinker | pipeline for easily generating publication-quality gene cluster comparison figures | Python package | [GitHub](https://github.com/gamcil/clinker) |  [wiki page](https://github.com/gamcil/clinker/wiki#basic-pipeline) |  [OA](https://doi.org/10.1093/bioinformatics/btab007) |
+<!-- 
+Dockers and tech 
 
-<button class="copy-button">Copy Table</button>
+You can have a singularity repo-like on Galaxy 
+https://depot.galaxyproject.org
+
+tool to upload:
+https://galaxy-upload.readthedocs.io/en/latest/
+
+
+ -->
+
+
+## Cool bioinfo 
+
+https://www.dbvis.com/thetable/
+
+ where we gather together to learn about and simplify the complexity of working with database technologies.
+
+for example, here is how to combine mysql with docker 
+https://www.dbvis.com/thetable/containerizing-mysql-with-docker-and-dbvisualizer/
+
+
+creating beautiful command line interfaces in a composable way with as little code as necessary. 
+https://click.palletsprojects.com/en/stable/
+
+part of the Pallets community : https://palletsprojects.com
+
+
+
+panGPT and panPrompt: Generative Pre-Trained Transformer for Large Pangenome Models (LPMs) from scratch.
+https://github.com/mol-evol/panGPT
+
 

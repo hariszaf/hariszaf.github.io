@@ -25,6 +25,7 @@ To save some (of my) time, I will use a lot of copy-paste () always referring th
   - [Feature Identification Adjusting for Confounding](#feature-identification-adjusting-for-confounding)
 - [Microbial phenomena that can drive you nuts!](#microbial-phenomena-that-can-drive-you-nuts)
   - [A strain dips to very low abundance in a microbial community and then recovers to thrive](#a-strain-dips-to-very-low-abundance-in-a-microbial-community-and-then-recovers-to-thrive)
+  - [](#)
 - [Literature](#literature)
 
 ---
@@ -136,8 +137,11 @@ asd
 ### A strain dips to very low abundance in a microbial community and then recovers to thrive
 
 This is quite common and reflects the complex interplay of ecological, evolutionary, and environmental factors. 
-[In this page](/insights/persistence/) you can find some of the ways a strain might manage to survive during these low-abundance periods without going completely extinct.
+[In this page](/insights/persistence.html) you can find some of the ways a strain might manage to survive during these low-abundance periods without going completely extinct.
 
+
+
+### 
 
 
 ## Literature 
