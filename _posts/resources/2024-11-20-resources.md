@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Arsenal
+layout  : post
+title   : Arsenal
 category: resources
-image: https://media.licdn.com/dms/image/v2/D561BAQGxm3Cp1Lc-tQ/company-background_10000/company-background_10000/0/1654722729907/lyda_hill_department_of_bioinformatics_cover?e=2147483647&v=beta&t=XF1Z5LhEVtcFFy_D-4E7gwz3qDv6xoG9qe0YVSdOXQI
-tags: tools
+image   : https://media.licdn.com/dms/image/v2/D561BAQGxm3Cp1Lc-tQ/company-background_10000/company-background_10000/0/1654722729907/lyda_hill_department_of_bioinformatics_cover?e=2147483647&v=beta&t=XF1Z5LhEVtcFFy_D-4E7gwz3qDv6xoG9qe0YVSdOXQI
+tags    : tools
 ---
 
 This is my favorite resources' page

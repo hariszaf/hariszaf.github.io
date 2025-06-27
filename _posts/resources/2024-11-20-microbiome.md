@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Microbiome basics
+layout  : post
+title   : Microbiome basics
 category: resources
-image: https://media.licdn.com/dms/image/D5612AQENbGxsBiiBXA/article-cover_image-shrink_720_1280/0/1682668294084?e=2147483647&v=beta&t=o8W3gA2iYv0oL-ZQzqAU9UKn2ft21lSRa_ngd53hDzo
+image   : https://media.licdn.com/dms/image/D5612AQENbGxsBiiBXA/article-cover_image-shrink_720_1280/0/1682668294084?e=2147483647&v=beta&t=o8W3gA2iYv0oL-ZQzqAU9UKn2ft21lSRa_ngd53hDzo
 ---
+
 <!-- https://t4.ftcdn.net/jpg/08/13/85/15/360_F_813851569_Pm4OMS0rtCi4D3Y4Vgt76SI87MLUATNk.jpg -->
 <!--  https://sbvu.ac.in/wp-content/uploads/2023/11/microbes-bacteria-7.jpg -->
 <!-- since it is a post, they have always to start with a date!!!  -->

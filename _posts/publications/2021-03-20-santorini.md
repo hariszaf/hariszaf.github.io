@@ -1,11 +1,11 @@
 ---
-layout: post
-title: "The Santorini Volcanic Complex as a Valuable Source of Enzymes for Bioenergy"
-subtitle: "Energies"
-category: publications
-tags: amplicon
-image:
-  path: /assets/img/santorini.png
+layout     : post
+title      : "The Santorini Volcanic Complex as a Valuable Source of Enzymes for Bioenergy"
+subtitle   : "Energies"
+category   : publications
+tags       : amplicon
+image      : 
+path       : /assets/img/santorini.png
 paperButton: https://doi.org/10.3390/en14051414 
 
 ---
