@@ -41,6 +41,15 @@ You may have a look at this :notebook: [*e-book*](https://hariszaf.github.io/not
 | gcplyr   | microbial growth curve data analysis                                                                           | [pages](https://mikeblazanin.github.io/gcplyr/)     | R package    | [GitHub](https://github.com/mikeblazanin/gcplyr)              | [OA](https://doi.org/10.1186/s12859-024-05817-3)          |
 | drep     | https://drep.readthedocs.io/en/latest/choosing_parameters.html                                                 |
 | Bacformer | prokaryotic foundational model which models whole-bacterial genomes as a sequence of proteins ordered by their genomic coordinates on the chromosome and plasmid(s) | [GitHub](https://github.com/macwiatrak/Bacformer)
+| YACHT | an ANI based statistical test to detect microbial presence/absence in a metagenomic sample. | |  | [GitHub](https://github.com/KoslickiLab/YACHT)  | [OA](https://doi.org/10.1093/bioinformatics/btae047) |
+| sourmash*  | a command-line tool and Python/Rust library for metagenome analysis and genome comparison using k-mers. It supports the compositional analysis of metagenomes, rapid search of large sequence databases, and flexible taxonomic profiling with both NCBI and GTDB taxonomies| [RTD](https://sourmash.readthedocs.io) | Rust + Python | [GitHub](https://github.com/sourmash-bio/sourmash) | [OA](https://joss.theoj.org/papers/10.21105/joss.06830) |
+| StrainR2 | quantifies strain abundances using shotgun metagenomic sequencing to a similar accuracy as qPCR | | | [GitHub](https://github.com/BisanzLab/StrainR2) | |
+|      |
+
+
+
+
+
 
 Hierarchical Modelling of Species Communities (Hmsc) is a flexible framework for Joint Species Distribution Modelling (JSDMs).
  relate species occurrences or abundances to environmental covariates, species traits and phylogenetic relationships. JSDMs are a special case of species distribution models (SDMs) that take into account the multivariate nature of communities which allows us to estimate community level responses as well capture biotic interactions and the influence of missing covariates in residual species associations.
@@ -51,6 +60,10 @@ Kinbiont – an ecosystem of numerical methods integrating advanced ordinary dif
 https://pinheirogroup.github.io/Kinbiont.jl/
 https://www.biorxiv.org/content/10.1101/2024.09.09.611847v1.full
 
+
+
+Statistical Inference of Associations between Microbial Communities And host phenoTypes
+https://zellerlab.github.io/tools/siamcat
 
 
 <button class="copy-button">Copy Table</button>

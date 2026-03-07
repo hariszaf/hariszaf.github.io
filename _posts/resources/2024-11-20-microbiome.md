@@ -19,11 +19,14 @@ To save some (of my) time, I will use a lot of copy-paste () always referring th
   - [Covariate Adjustment](#covariate-adjustment)
 - [Microbiome diversity](#microbiome-diversity)
   - [Diversity within a community](#diversity-within-a-community)
+    - [Faith's Phylogenetic Diversity (PD)](#faiths-phylogenetic-diversity-pd)
   - [Diversity between communities](#diversity-between-communities)
 - [Feature Identification](#feature-identification)
+  - [Other concepts of diversity](#other-concepts-of-diversity)
   - [Differential Abundance Analysis](#differential-abundance-analysis)
   - [Mediation analysis](#mediation-analysis)
   - [Feature Identification Adjusting for Confounding](#feature-identification-adjusting-for-confounding)
+  - [Gini coefficient](#gini-coefficient)
 - [Microbial phenomena that can drive you nuts!](#microbial-phenomena-that-can-drive-you-nuts)
   - [A strain dips to very low abundance in a microbial community and then recovers to thrive](#a-strain-dips-to-very-low-abundance-in-a-microbial-community-and-then-recovers-to-thrive)
   - [](#)
@@ -83,6 +86,22 @@ $$
 ---
 
 
+
+
+#### Faith's Phylogenetic Diversity (PD)
+
+https://danielpfaith.wordpress.com/phylogenetic-diversity/
+the phylogenetic diversity of a set of species as equal to the sum of the lengths of all those branches on the tree that span the  members of the set.
+
+Faith's phylogenetic diversity measures the amount of the phylogenetic tree covered by the community. It's a sum of the minimum branch lengths (however you measure branch lengths). So, a higher number means more branches, means more richness (more diversity).
+
+There are a couple of caveats (yes, I'm here to rain on the parade (:cloud_with_rain:). First, as a richness metric, Faith's PD is pretty sensitive to sequencing depth. The actual value of your numbers depends on your sequencing depth, denoising method, rarefaction depth, and phylogenetic tree. The absloute magnitude is less useful as you look across datasets.
+
+The relationship between the samples should be fairly consistent for a complex community, mostly independent of technical factors.
+
+
+
+
 ### Diversity between communities 
 
 **β-diversity** 
@@ -98,6 +117,23 @@ Questions to be addressed:
 *  which microbiome features are impacted by treatments or environmental conditions? $$ \rightarrow $$ identify features whose abundances change across treatments or conditions differential $$ \rightarrow $$ **abundance analysis**
 *  which microbiome features mediate treatment effects on an outcome? $$ \rightarrow $$ identify taxa affected by treatments and that because of their change the outcome of the treatment is influenced $$ \rightarrow $$ **mediation analysis**
 *  which microbiome features have an effect on an outcome, adjusting for confounders  $$ \rightarrow $$ identify microbiome features with an effect on an outcome with no particular treatments of interest, but with potential complex confounding arising from relationships between microbes, host, and environment $$ \rightarrow $$ [**Feature Identification Adjusting for Confounding**](#feature-identification-adjusting-for-confounding)
+
+
+
+### Other concepts of diversity
+
+**microbiability**
+
+the proportion of phenotypic variance of a trait, that is explained by between-animal differences in the microbial community.
+From the perspective of quantitative genetics, the effect of the microbiome on a trait can be quantified by estimating the microbiability.
+
+The fraction of phenotypic variance for a given trait that is explained by the microbiome has been estimated to quantify its influence and has been named ‘microbiability’ (b2)
+in symmetry with the classical ‘heritability’ (h2 ) concept
+
+**heritability**
+estimates the degree of variation in a phenotypic trait in a population that is due to genetic variation between individuals in that population.
+
+
 
 
 
@@ -129,6 +165,18 @@ To determine whether a feature has a mediation effect, a method must **consider 
 
 asd
 
+
+
+### Gini coefficient
+
+ Bioinformatics, Volume 34, Issue 21, November 2018, Pages 3711–3718, https://doi.org/10.1093/bioinformatics/bty373
+ The revival of the Gini importance? Open Access 
+
+We set up a fast approach to debias impurity-based variable importance measures for classification, regression and survival forests. 
+We show that it creates a **variable importance measure** which is unbiased with regard to the number of categories and minor allele frequency and almost as fast as the standard impurity importance. 
+As a result, it is now possible to compute reliable importance estimates without the extra computing cost of permutations. 
+Further, we combine the importance measure with a fast testing procedure, producing p-values for variable importance with almost no computational overhead to the creation of the random forest. 
+They had applications to gene expression and genome-wide association data, but we can use it for microbiome data as well.
 
 
 

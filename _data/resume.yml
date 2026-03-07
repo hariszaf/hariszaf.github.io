@@ -1,20 +1,23 @@
 basics:
   name: "Haris Zafeiropoulos"
-  label: "bioinformatician, systems biology"
+  label: "bioinformatician, microbial ecology, systems biology"
   picture: /assets/img/rsz_lab_42_pic_haris.jpg
-  email: "hariszafeiropoulos@kuleuven.be"
-  #phone: "(+82) 10-6273-3127"
+  email: "haris.zafeiropoulos@atomicmail.io"
   website: "https://hariszaf.github.io/"
   summary: >
-    Hello friend.<br>
+    Hello friend.<br><br>
     I am a bioinformatician, coming from Greece, keen on microbes and their interactions.<br>
-    I use systems biology approaches and I prefer studying than doing <br>
+    I use the [reverse ecology](https://en.wikipedia.org/wiki/Reverse_ecology) paradigm and
+    systems biology approaches to untangle microbe-microbe and microbe-environment interactions and their dynamics. <br>
+    I enjoy developing, but I am even more interested in understanding how the components of a community interact to produce outcomes that exceed the sum of their individual contributions. <br>
+
   # location:
   #   address: "2712 Broadway St"
   #   postalCode: "CA 94115"
   #   city: "San Francisco"
   #   countryCode: "US"
   #   region: "California"
+
   profiles:
     - network: "Github"
       username: "hariszaf"
@@ -30,7 +33,7 @@ work:
     startDate: "2022-10-01"
     endDate: ""
     summary: >
-      Since September 2022, I have joined the [Lab of Microbial Systems Biology](http://msysbiology.com) at KU Leuven and Prof. Karoline Faust group. The lab focuses on the structure and dynamics of microbial communities with systems biology methods. My contribution is in the modeling tasks of the [3D'omics](https://3domics.eu) project. 
+      Since September 2022, I have joined the [Lab of Microbial Systems Biology](http://msysbiology.com) at KU Leuven and Prof. Karoline Faust group. The lab focuses on the structure and dynamics of microbial communities with systems biology methods. My contribution is in the modeling tasks of the [3D'omics](https://3domics.eu) project.
     # highlights:
     #   -
 
@@ -40,7 +43,7 @@ work:
     position: "research associate"
     website: "https://geomscale.github.io"
     summary: >
-      GeomScale is an open source project developing algorithms for geometric statistics. This field has essential benefit for biologically oriented problems especially in metabolic models analysis. 
+      GeomScale is an open source project developing algorithms for geometric statistics. This field has essential benefit for biologically oriented problems especially in metabolic models analysis.
     highlights:
       - "<a href='https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2021.21.1'>SoCG 2021</a> "
       - "<a href='https://hariszaf.github.io/software/dingo.html'>dingo</a>'  Python library"
@@ -51,13 +54,10 @@ work:
     startDate: "2017-09-01"
     endDate: "2022-08-31"
     summary: >
-      I joint [IMBBC, HCMR](https://imbbc.hcmr.gr) and the Biodiversity lab of Dr. Christos Arvanitidis for my MSc thesis. After that, I had my PhD with Dr. Evangelos Pafilis. 
+      I joint [IMBBC, HCMR](https://imbbc.hcmr.gr) and the Biodiversity lab of Dr. Christos Arvanitidis for my MSc thesis. After that, I had my PhD with Dr. Evangelos Pafilis.
     highlights:
       - "<a href='https://hariszaf.github.io/software/pema.html'>PEMA workflow</a>"
       - "<a href='https://hariszaf.github.io/software/prego.html'>PREGO platform</a>"
-
-
-
 
 # volunteer:
 #   - organization: "Hanyang Mentoring Program"
@@ -79,7 +79,6 @@ work:
 #     highlights:
 
 education:
-
   - institution: "University of Crete, Greece"
     area: "Bioinformatics, Systems biology"
     studyType: "Phd"
@@ -91,7 +90,6 @@ education:
     # highlights: >
     #   "<a href='https://elocus.lib.uoc.gr//dlib/5/7/d/attached-metadata-dlib-1661248925-407543-18532/haris_zafeiropoulos_phd_dissertation.pdf'>my dissertation</a>"
 
-
   - institution: "University of Crete, Greece"
     area: "Bioinforimatics"
     studyType: "Master"
@@ -100,7 +98,6 @@ education:
     gpa: "9.1/10"
     certificate: "<br>    <a href='https://elocus.lib.uoc.gr//dlib/5/2/f/attached-metadata-dlib-1545038085-364284-26948/msc_thesis_zafeiropoulos.pdf'>My thesis.</a>"
 
-
   - institution: "National and Kapodistrian University of Athens, Greece"
     area: "Biology"
     studyType: "Bachelor"
@@ -108,11 +105,8 @@ education:
     endDate: "2016-09-30"
     gpa: "6.21/10"
     # certificate: "Morphology, morphometry and anatomy of species of the genus Pseudamnicola in Greece"
-    
-
 
 projects:
-
   - title: "3D Omics"
     startDate: "2022-08-01"
     summary: "Aim of the project is to develop a framework to generate and analyse 3D'omic data that aims at unveiling microbe-microbe and animal-microbe interactions that have so far remained undetected"
@@ -121,15 +115,12 @@ projects:
       - "Network and metabolic modelling"
       - "Integrative multi-omic 3D modelling"
 
-
-
 awards:
   - title: "Google Summer of Code"
     awarder: "Hanyang Univ."
     date: "2019-08-01"
     highlights:
       - "<a href='https://hariszaf.github.io/gsoc2021/'>project blog</a>."
-
 
   - title: "European Molecular Biology Organization Short-Term Fellowship"
     awarder: "EMBO"
@@ -142,15 +133,10 @@ awards:
     highlights:
       - DARN project inits
 
-
   - title: "Best Poster Award @ Hellenic Bioinformatics conference"
     awarder: "HBIO"
     highlights:
       - "PEMA goes public for the first time."
-
-
-
-
 
 # publications:
 #   - name: "Video compression for 3d media"
@@ -160,7 +146,6 @@ awards:
 #     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 
 skills:
-
   - name: "Software Development"
     level: "Intermediate"
     keywords:
@@ -188,7 +173,6 @@ skills:
       - "Javascript"
       - "Java"
 
-
 languages:
   - language: "Greek"
     fluency: "Native speaker"
@@ -206,8 +190,6 @@ interests:
     keywords:
       - "latin noir"
       - "classics"
-
-
 
 # references:
 #   - name: "Erlich Bachman"

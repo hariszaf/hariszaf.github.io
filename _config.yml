@@ -50,12 +50,13 @@ logo: /assets/img/rsz_lab_42_pic_haris.jpg
 author:
   # Used by `jekyll-feed`:
   name: Haris Zafeiropoulos
-  email: haris.zafeiropoulos@kuleuven.be
+  email: haris.zafeiropoulos@atomicmail.io
   picture: /assets/img/rsz_lab_42_pic_haris.jpg
   social:
     github: hariszaf
-    email: hariszafeiropoulos@kuleuven.be
+    email: haris.zafeiropoulos@atomicmail.io
     twitter: haris_zaf
+    bluesky: hariszaf
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
